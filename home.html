@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Locator Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<header class="top-header">
+  <div class="logo-area">
+    <img src="logo.jpg" alt="Logo">
+    <h2>Water Refilling Map</h2>
+  </div>
+</header>
+
+
+<body>
+  <aside class="sidebar">
+    <h2>Water Refilling Map</h2>
+    <nav>
+      <a href="destination.html">Destinations</a>
+      <a href="map.html">Map</a>
+      <a href="statistics.html">Statistics</a>
+    </nav>
+  </aside>
+        <div class="card">
+          <img src="2V Aqua Water Refilling Station.jpeg" alt="2V Aqua Water Refilling Station">
+          <h3>2V Aqua Water Refilling Station</h3>
+        </div>
+        <div class="card">
+          <img src="plazarizal.jpg" alt="plazarizal">
+          <h3>Plaza Rizal</h3>
+        </div>
+        <div class="card">
+          <img src="mt..jpg" alt="mt.capistrano">
+          <h3>Mt. Capistrano</h3>
+        </div>
+         <div class="card">
+          <img src="sabangan.jpg" alt="sabangan">
+          <h3>Sabangan</h3>
+        </div>
+    </section>
+
+    <section class="map-chart">
+      <div class="map-container">
+        <h2>Tourist Spots Map</h2>
+        <div id="map"></div>
+      </div>
+
+      <div class="chart-container">
+        <h2>Visitor Trends</h2>
+        <canvas id="visitorChart"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
